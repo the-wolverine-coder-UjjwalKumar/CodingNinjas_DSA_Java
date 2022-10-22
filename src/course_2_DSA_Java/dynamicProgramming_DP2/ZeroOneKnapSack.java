@@ -7,6 +7,7 @@ public class ZeroOneKnapSack {
 
 	}
 
+	// Leetcode daily solution
 	public static int knapsack(int[] wt, int[] val, int n, int W) {
 		// Your code goes here
 		int[][] dp = new int[n + 1][W + 1];
